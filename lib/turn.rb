@@ -8,8 +8,6 @@ def turn(board)
   index = input_to_index(input)
   if valid_move(board, index)
   end
-
-
 end
 
 def input_to_index(input)
@@ -32,5 +30,5 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, index, char)
+def move(board, index, current_player = "X")
 end
