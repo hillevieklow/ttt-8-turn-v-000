@@ -7,7 +7,7 @@ def turn(board)
   input = gets.chomp
   index = input_to_index(input)
   if valid_move?(board, index)
-    move(move, input, current_player="X")
+    move(board, input, current_player = "X")
   else
     turn(board)
   end
